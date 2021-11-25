@@ -1,0 +1,19 @@
+.place{
+    width: 984px;
+    margin: 0 auto 0 auto;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    position: relative;
+    flex-direction: row;
+}
+.place:nth-child(5){
+    padding-bottom: 0;
+}
+
+
+
+    

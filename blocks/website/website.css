@@ -1,0 +1,8 @@
+.website{
+    width:456px;
+    margin:0;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end; 
+}
