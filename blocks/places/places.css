@@ -1,6 +1,22 @@
 .places{
-    padding: 92px 0 92px 0;
-    color: white;
     margin: 0 auto;
-    width:984px;
+    max-width: 984px;
+    min-height: 3392px;
+    padding-bottom: 92px;
+}
+@media screen and(max-width: 768px){
+    .places{
+        margin: 0 auto;
+        max-width: 984px;
+        min-height: 3392px;
+        padding-bottom: 90px;
+    }
+}
+@media screen and(max-width: 320px){
+    .places{
+        margin: 0 auto;
+        max-width: 984px;
+        min-height: 3392px;
+        padding-bottom: 66px;
+    }
 }

@@ -1,19 +1,22 @@
 .place{
-    width: 984px;
-    margin: 0 auto 0 auto;
-    margin-top: 0;
-    padding: 0;
+    color: #fff;
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 80px;
-    position: relative;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: "title website"
+                        "image paragraph";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
-.place:nth-child(5){
-    padding-bottom: 0;
+@media screen and (max-width:320px){
+    .place{
+        color: #fff;
+        list-style: none;
+        display: grid;
+        grid-template-areas: "title" 
+                            "website"
+                            "image"
+                            "paragraph";
+        grid-template-columns: 288px 288px 320px 288px;
+        grid-auto-flow: column;
+    }
 }
-
-
-
-    
