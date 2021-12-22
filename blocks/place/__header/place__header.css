@@ -1,0 +1,29 @@
+.place__header{
+  display: grid;
+  grid-template-columns: 460px 456px;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .place__header{
+    display: grid;
+    grid-template-columns: 440px 456px;
+    grid-column-gap: 32px;
+    grid-row-gap: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__header{
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-column-gap: 28px;
+    grid-row-gap: 48px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__header{
+    display: grid;
+    grid-template-columns: 288px;
+    grid-row-gap: 32px;
+  }
+}
