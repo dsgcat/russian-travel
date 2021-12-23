@@ -1,7 +1,7 @@
 .lead__title{
   width: 720px;
   margin: 0 auto;
-  font-family: Inter;
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -13,7 +13,7 @@
   .lead__title{
     width: 288px;
     margin: 0 auto;
-    font-family: Inter;
+    font-family: "Inter Bold";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
