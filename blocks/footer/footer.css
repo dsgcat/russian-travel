@@ -4,16 +4,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top:92px;
+  padding-top: 92px;
   padding-bottom: 24px;
 }
 @media screen and (max-width: 1024px){
   .footer{
     width: 928px;
-    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding-top:92px;
     padding-bottom: 24px;
   }
@@ -21,22 +18,15 @@
 @media screen and (max-width: 768px){
   .footer{
     width: 720px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding-top:88px;
     padding-bottom: 24px;
   }
 }
 @media screen and (max-width: 320px){
   .footer{
-    width: 186px;
     margin: 0;
-    display: flex;
+    width: 186px;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
     padding: 64px 0 24px 16px;
   }
 }

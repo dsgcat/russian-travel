@@ -5,21 +5,18 @@
 }
 @media screen and (max-width: 1024px) {
   .place__header{
-    display: grid;
     grid-template-columns: 440px 456px;
     grid-column-gap: 32px;
   }
 }
 @media screen and (max-width: 768px) {
   .place__header{
-    display: grid;
     grid-template-columns: 340px 352px;
     grid-column-gap: 28px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__header{
-    display: grid;
     grid-template-columns: 288px;
   }
 }

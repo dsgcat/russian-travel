@@ -9,45 +9,16 @@
 }
 @media screen and(max-width: 1024px) {
   .cover__link{
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    flex-direction: column;
     min-height: 640px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .cover__link{
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    min-height: 640px;
-    justify-content: center;
-    align-items: center;
-  }
+   }
 }
 @media screen and (max-width: 768px) {
   .cover__link{
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    flex-direction: column;
     min-height: 480px;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__link{
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    flex-direction: column;
     min-height: 200px;
-    justify-content: center;
-    align-items: center;
   }
 }
