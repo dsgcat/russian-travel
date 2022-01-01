@@ -1,8 +1,7 @@
 .cover__background{
   max-width: 1184px;
+  min-height: 740px;
   position: absolute;
-  opacity: 0.8;
-  z-index: 0;
 }
 .cover__background:hover{
   opacity: 0.3;
