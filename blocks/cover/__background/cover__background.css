@@ -3,39 +3,18 @@
   min-height: 740px;
   position: absolute;
 }
-.cover__background:hover{
-  opacity: 0.3;
-}
 @media screen and (max-width: 1024px) {
   .cover__background{
     max-width: 1024px;
-    position: absolute;
-    opacity: 0.8;
-    z-index: 0;
-  }
-  .cover__background:hover{
-    opacity: 0.3;
   }
 }
 @media screen and ( max-width: 768px) {
   .cover__background{
     max-width: 768px;
-    position: absolute;
-    opacity: 0.8;
-    z-index: 0;
-  }
-  .cover__background:hover{
-    opacity: 0.3;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__background{
     max-width: 320px;
-    position: absolute;
-    opacity: 0.8;
-    z-index: 0;
-  }
-  .cover__background:hover{
-    opacity: 0.3;
   }
 }
