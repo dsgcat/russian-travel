@@ -1,5 +1,6 @@
 .header__lang-link{
-  margin-right: 18px;
+  margin: 0;
+  padding: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -7,10 +8,9 @@
   line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
 }
-.header__lang-link:nth-child(2){
-  margin-right: 0px;
+.header__lang-link:hover{
+  text-decoration: underline;
 }
 @media screen and (max-width: 320px){
   .header__lang-link{
