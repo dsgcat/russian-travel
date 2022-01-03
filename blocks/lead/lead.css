@@ -12,9 +12,6 @@
   .lead{
     max-width: 768px;
     padding-bottom: 88px;
-    display:flex;
-    flex-direction: column;
-    position: relative;
   }
 }
 @media screen and (max-width: 320px){
