@@ -345,6 +345,25 @@
   padding: 92px 0 92px 0;
   display: block;
 }
+@media screen and (max-width: 1024px){
+  .places{
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px){
+  .places{
+    max-width: 720px;
+    padding-top: 88px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 320px){
+  .places{
+    max-width: 320px;
+    padding-bottom: 66px;
+    padding-top: 64px;
+  }
+}
 .place{
   outline: 1px solid #ffdf2c;
   max-width: 984px;
@@ -356,6 +375,23 @@
 .place:last-child{
   padding:0;
 }
+@media screen and (max-width: 1024px){
+  .place{
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px){
+  .place{
+    max-width: 720px;
+    padding-bottom: 73px;
+  }
+}
+@media screen and (max-width: 320px){
+  .place{
+    max-width: 320px;
+    padding-bottom: 50px;
+  }
+}
 .place__header{
   outline: 1px solid #ff2f90;
   max-width: 984px;
@@ -365,6 +401,18 @@
   display: grid;
   grid-template-columns: 460px 456px;
   grid-column-gap: 40px;
+}
+@media screen and (max-width: 1024px){
+  .place__header{
+    grid-template-columns: 440px 456px;
+    grid-column-gap: 32px;
+  }
+}
+@media screen and (max-width: 768px){
+  .place__header{
+    grid-template-columns: 340px 352px;
+    grid-column-gap: 28px;
+  }
 }
 .header__title{
   margin-block-start: 0;
@@ -412,6 +460,10 @@
   text-decoration: underline;
   color: #FFFFFF;
 }
+.place__link:hover{
+  opacity: .8;
+  transition: all .2s ease-in-out;
+}
 .place__content{
   outline: 1px solid #ff2f90;
   max-width: 984px;
@@ -421,9 +473,12 @@
   grid-template-columns: 460px 484px;
   grid-column-gap: 40px;
 }
-.place__link:hover{
-  opacity: .8;
-  transition: all .2s ease-in-out;
+@media screen and (max-width: 1024px){
+  .place__content{
+    max-width: 928px;
+    grid-template-columns: 440px 456px;
+    grid-column-gap: 32px;
+  }
 }
 .place__image{
   margin: 0;
@@ -448,6 +503,11 @@
 }
 .place__paragraph:last-child{
   padding-top: 26px;
+}
+@media screen and (max-width: 1024px){
+  .place__paragraph:last-child{
+    padding-top: 27px;
+  }  
 }
 /* =====================places-end============================= */
 /* =====================cover================================ */
