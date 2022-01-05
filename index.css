@@ -480,7 +480,7 @@
   min-height: 740px;
   justify-content: center;
   align-items: center;
-  background-image: url(images/cover-trains.jpg);
+  background-image: url(./images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
