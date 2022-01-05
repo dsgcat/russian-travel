@@ -522,6 +522,8 @@
     max-width: 320px;
     grid-template-columns: repeat(auto-fill, 320px);
     grid-row-gap: 32px;
+    box-sizing: border-box;
+    object-fit: fill;
   }
 }
 .place__image{
@@ -533,7 +535,9 @@
     .place__image{
     margin: 0;
     padding: 0;
-    width: 320px;
+    max-width: 320px;
+    box-sizing: border-box;
+    object-fit: fill;
   }
 }
 .place__paragraphs{
