@@ -520,10 +520,16 @@
 @media screen and (max-width: 320px){
   .place__content{
     max-width: 320px;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: fill;
+    
+    /* max-width: 320px;
     grid-template-columns: repeat(auto-fill, 320px);
     grid-row-gap: 32px;
     box-sizing: border-box;
-    object-fit: fill;
+    object-fit: fill; */
   }
 }
 .place__image{
@@ -536,8 +542,6 @@
     margin: 0;
     padding: 0;
     max-width: 320px;
-    box-sizing: border-box;
-    object-fit: fill;
   }
 }
 .place__paragraphs{
