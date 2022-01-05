@@ -520,10 +520,10 @@
 @media screen and (max-width: 320px){
   .place__content{
     max-width: 320px;
-    display: block;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     overflow: hidden;
-    object-fit: fill;
     
     /* max-width: 320px;
     grid-template-columns: repeat(auto-fill, 320px);
@@ -535,13 +535,13 @@
 .place__image{
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
 }
 @media screen and (max-width: 320px){
     .place__image{
-    margin: 0;
+    margin: 0 auto 32px auto;
     padding: 0;
-    max-width: 320px;
+    width: 270px;
   }
 }
 .place__paragraphs{
