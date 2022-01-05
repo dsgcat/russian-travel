@@ -11,6 +11,7 @@
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
+  object-fit: fill;
 }
 a.cover__link::before{
   content:"";
