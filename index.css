@@ -551,6 +551,11 @@
   font-size: 16px;
   }
 }
+@media screen and (max-width: 320px){
+  .place__paragraph{
+    font-size: 16px;
+    }
+  }
 .place__paragraph:nth-child(2){
   padding-top: 26px;
 }
@@ -560,6 +565,11 @@
   }  
 }
 @media screen and (max-width: 768px){
+  .place__paragraph:nth-child(2){
+    padding-top: 25px;
+  }  
+}
+@media screen and (max-width: 320px){
   .place__paragraph:nth-child(2){
     padding-top: 25px;
   }  
