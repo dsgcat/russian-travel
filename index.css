@@ -418,6 +418,10 @@
   grid-template-columns: 460px 484px;
   grid-column-gap: 40px;
 }
+.place__link:hover{
+  opacity: .8;
+  transition: all .2s ease-in-out;
+}
 .place__image{
   margin: 0;
   padding: 0;
