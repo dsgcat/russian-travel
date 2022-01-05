@@ -173,6 +173,11 @@
   text-align: center;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1024px){
+  .lead__subtitle{
+    padding: 16px 0 56px 0;
+  }
+}
 @media screen and (max-width:320px){
   .lead__subtitle{
     padding: 16px 0 40px 0;
@@ -501,11 +506,11 @@
   line-height: 163%;
   color: #FFFFFF;
 }
-.place__paragraph:last-child{
+.place__paragraph:nth-child(2){
   padding-top: 26px;
 }
 @media screen and (max-width: 1024px){
-  .place__paragraph:last-child{
+  .place__paragraph:nth-child(2){
     padding-top: 27px;
   }  
 }
