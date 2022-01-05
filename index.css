@@ -25,7 +25,6 @@
   background: #2A2C2F;
   margin: 0 auto;
   padding: 0;
-  outline: 1px solid orangered;
 }
 @media screen and (max-width: 1024px){
   .page{
@@ -60,7 +59,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  outline: 1px solid orangered;
   padding: 28px 0 0 0;
 }
 @media screen and (max-width: 1024px){
@@ -150,7 +148,6 @@
 /* =====================LEAD-START============================ */
 .lead{
   max-width: 984px;
-  outline: 1px solid orangered;
   margin: 0 auto;
   padding: 56px 0 92px 0;
 }
@@ -390,7 +387,6 @@
   max-width: 1184px;
   padding: 0;
   margin: 0 auto;
-  outline: 1px solid mediumturquoise;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
@@ -464,7 +460,6 @@
 
 /* =====================places-start============================= */
 .places{
-  outline: 1px solid #00ff08;
   max-width: 984px;
   margin: 0 auto;
   padding: 92px 0 92px 0;
@@ -504,7 +499,6 @@
   }
 }
 .place{
-  outline: 1px solid #ffdf2c;
   max-width: 984px;
   margin: 0;
   padding: 0 0 80px 0;
@@ -544,7 +538,6 @@
   }
 }
 .place__header{
-  outline: 1px solid #ff2f90;
   max-width: 984px;
   margin: 0;
   padding: 0;
@@ -669,7 +662,6 @@
   transition: all .2s ease-in-out;
 }
 .place__content{
-  outline: 1px solid #ff2f90;
   max-width: 984px;
   margin: 0;
   padding: 0;
