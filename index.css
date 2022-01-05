@@ -353,6 +353,9 @@
   display: flex;
   flex-direction: column;
 }
+.place:last-child{
+  padding:0;
+}
 .place__header{
   outline: 1px solid #ff2f90;
   max-width: 984px;
