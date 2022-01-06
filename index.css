@@ -581,8 +581,7 @@
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
     margin: 0 auto;
-    padding-bottom: 32px;
-  }
+    }
 }
 .header__title{
   margin: 0;
@@ -632,7 +631,12 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;  
+  justify-content: flex-end;
+}
+@media screen and (max-width: 320px){
+  .header__website{
+    padding-bottom: 32px;
+  }
 }
 .place__url-heading{
   margin-block-start: 0;
