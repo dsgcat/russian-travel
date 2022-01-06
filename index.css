@@ -572,6 +572,7 @@
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 @media screen and (max-width: 320px){
@@ -580,6 +581,7 @@
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 .header__title{
