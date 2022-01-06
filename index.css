@@ -581,7 +581,7 @@
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
     margin: 0 auto;
-    padding: 32px;
+    padding-bottom: 32px;
   }
 }
 .header__title{
