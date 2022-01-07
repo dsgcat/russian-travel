@@ -24,6 +24,11 @@ a.cover__link::before{
 a.cover__link:hover:before{
   opacity: 0.8;
 }
+@media screen and(max-width: 1112px) {
+  .cover__link{
+    min-height: 640px;
+   }
+}
 @media screen and(max-width: 1024px) {
   .cover__link{
     min-height: 640px;

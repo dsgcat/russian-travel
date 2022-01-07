@@ -3,6 +3,11 @@
   margin: 0 auto;
   position: relative;
 }
+@media screen and (max-width: 1112px) {
+  .cover{
+    max-width: 1024px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .cover{
     max-width: 1024px;

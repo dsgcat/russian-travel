@@ -7,6 +7,14 @@
   padding-top: 92px;
   padding-bottom: 24px;
 }
+@media screen and (max-width: 1112px){
+  .footer{
+    width: 928px;
+    display: flex;
+    padding-top:92px;
+    padding-bottom: 24px;
+  }
+}
 @media screen and (max-width: 1024px){
   .footer{
     width: 928px;

@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 1112px){
+  .photo-grid__item{
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 1024px){
   .photo-grid__item{
     max-width: 300px;

@@ -7,6 +7,12 @@
   grid-template-columns: 460px 456px;
   grid-column-gap: 40px;
 }
+@media screen and (max-width: 1112px){
+  .place__header{
+    grid-template-columns: 440px 456px;
+    grid-column-gap: 32px;
+  }
+}
 @media screen and (max-width: 1024px){
   .place__header{
     grid-template-columns: 440px 456px;
