@@ -22,3 +22,7 @@ Russian Travel: https://dsgcat.github.io/russian-travel/
 6. **563px**
 7. **414px**
 8. **320px**
+
+При вёрстке использовались сетки:
+* flex
+* grid
