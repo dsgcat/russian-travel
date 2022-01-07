@@ -10,5 +10,5 @@
 7. Footer
 
 #### ссылка на проект в GitHub Pages
-[Russian Travel]
-[Russian Travel]:https://dsgcat.github.io/russian-travel/
+
+Russian Travel: https://dsgcat.github.io/russian-travel/
