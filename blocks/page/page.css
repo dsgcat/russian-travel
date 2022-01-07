@@ -4,6 +4,11 @@
   margin: 0 auto;
   padding: 0;
 }
+@media screen and (max-width: 1200px){
+  .page{
+    max-width: 1024px;
+  }
+}
 @media screen and (max-width: 1112px){
   .page{
     max-width: 1024px;
@@ -22,6 +27,11 @@
 @media screen and (max-width: 768px){
   .page{
     max-width: 768px;
+  }
+}
+@media screen and (max-width: 563px){
+  .page{
+    max-width: 320px;
   }
 }
 @media screen and (max-width: 414px){

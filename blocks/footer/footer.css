@@ -36,6 +36,14 @@
     padding-bottom: 24px;
   }
 }
+@media screen and (max-width: 563px){
+  .footer{
+    margin: 0;
+    width: 186px;
+    flex-wrap: wrap;
+    padding: 64px 0 24px 16px;
+  }
+}
 @media screen and (max-width: 414px){
   .footer{
     margin: 0;

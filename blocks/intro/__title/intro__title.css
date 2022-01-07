@@ -20,6 +20,22 @@
     text-align: left;
   }
 }
+@media screen and (max-width: 563px){
+  .intro__title{
+    max-width: 288px;
+    text-align: left;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 563px){
+  .intro__title{
+    max-width: 288px;
+    text-align: left;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
 @media screen and (max-width: 414px){
   .intro__title{
     max-width: 288px;

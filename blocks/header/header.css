@@ -26,6 +26,12 @@
     max-width: 720px;
   }
 }
+@media screen and (max-width: 563px){
+  .header{
+    max-width: 288px;
+    padding-top: 16px;
+  }
+}
 @media screen and (max-width: 414px){
   .header{
     max-width: 288px;
