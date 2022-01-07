@@ -8,3 +8,6 @@
 5. Places
 6. Cover
 7. Footer
+
+#### ссылка на проект в GitHub Pages
+[https://dsgcat.github.io/russian-travel/]:https://dsgcat.github.io/russian-travel/
