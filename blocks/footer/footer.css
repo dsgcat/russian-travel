@@ -9,39 +9,30 @@
 }
 @media screen and (max-width: 1200px){
   .footer{
-    width: 928px;
-    display: flex;
-    padding-top: 92px;
-    padding-bottom: 24px;
+    max-width: 928px;
   }
 }
 @media screen and (max-width: 1112px){
   .footer{
-    width: 928px;
-    display: flex;
-    padding-top: 92px;
-    padding-bottom: 24px;
+    max-width: 928px;
   }
 }
 @media screen and (max-width: 1024px){
   .footer{
     width: 928px;
-    display: flex;
-    padding-top:92px;
-    padding-bottom: 24px;
   }
 }
 @media screen and (max-width: 1010px){
   .footer{
     width: 720px;
-    padding-top:88px;
+    padding-top: 88px;
     padding-bottom: 24px;
   }
 }
 @media screen and (max-width: 768px){
   .footer{
     width: 720px;
-    padding-top:88px;
+    padding-top: 88px;
     padding-bottom: 24px;
   }
 }
