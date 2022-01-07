@@ -12,3 +12,13 @@
 #### ссылка на проект в GitHub Pages
 
 Russian Travel: https://dsgcat.github.io/russian-travel/
+
+*В работе использовались брейкпоинты:*
+1. **1200px**
+2. **1112px**
+3. **1024px**
+4. **1010px**
+5. **768px**
+6. **563px**
+7. **414px**
+8. **320px**
