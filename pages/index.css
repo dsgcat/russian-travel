@@ -39,4 +39,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-p, a, h1, h2, h3, div, section, footer, header, ul, li, nav {outline: 1px solid #abff10;}
