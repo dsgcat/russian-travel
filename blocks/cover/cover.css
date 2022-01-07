@@ -13,22 +13,27 @@
     max-width: 1024px;
   }
 }
-@media screen and(max-width: 1010px) {
+@media screen and (max-width: 1010px) {
   .cover{
     max-width: 768px;
   }
 }
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover{
     max-width: 768px;
   }
 }
-@media screen and(max-width: 414px) {
+@media screen and (max-width: 563px) {
   .cover{
     max-width: 320px;
   }
 }
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 414px) {
+  .cover{
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
   .cover{
     max-width: 320px;
   }
