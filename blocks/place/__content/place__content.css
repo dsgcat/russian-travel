@@ -20,13 +20,6 @@
     grid-column-gap: 28px;
   }
 }
-/* @media screen and (max-width: 768px){
-  .place__content{
-    max-width: 720px;
-    grid-template-columns: 340px 352px;
-    grid-column-gap: 28px;
-  } 
-} */
 @media screen and (max-width: 722px){
   .place__content{
     max-width: 320px;
