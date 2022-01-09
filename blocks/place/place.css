@@ -8,46 +8,24 @@
 .place:last-child{
   padding:0;
 }
-@media screen and (max-width: 1200px){
-  .place{
-    max-width: 928px;
-  }
-}
-@media screen and (max-width: 1112px){
-  .place{
-    max-width: 928px;
-  }
-}
 @media screen and (max-width: 1024px){
   .place{
     max-width: 928px;
   }
 }
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 930px){
   .place{
     max-width: 720px;
     padding-bottom: 73px;
   }
 }
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
   .place{
     max-width: 720px;
     padding-bottom: 73px;
   }
-}
-@media screen and (max-width: 563px){
-  .place{
-    max-width: 320px;
-    padding-bottom: 50px;
-  }
-}
-@media screen and (max-width: 414px){
-  .place{
-    max-width: 320px;
-    padding-bottom: 50px;
-  }
-}
-@media screen and (max-width: 320px){
+} */
+@media screen and (max-width: 722px){
   .place{
     max-width: 320px;
     padding-bottom: 50px;
