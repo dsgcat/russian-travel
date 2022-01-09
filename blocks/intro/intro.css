@@ -3,21 +3,9 @@
   padding: 0 0 92px 148px;
   max-width: 690px;
 }
-@media screen and (max-width: 1112px){
-  .intro{
-    padding: 0 0 92px 48px;
-  }
-}
 @media screen and (max-width: 1024px){
   .intro{
     padding: 0 0 92px 48px;
-  }
-}
-@media screen and (max-width: 1010px){
-  .intro{
-    max-width: 720px;
-    padding: 0 0 88px 0;
-    margin: 0 auto;
   }
 }
 @media screen and (max-width: 768px){
@@ -27,21 +15,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 563px){
-  .intro{
-    max-width: 288px;
-    padding: 0 0 64px 0;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 414px){
-  .intro{
-    max-width: 288px;
-    padding: 0 0 64px 0;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 722px){
   .intro{
     max-width: 288px;
     padding: 0 0 64px 0;
