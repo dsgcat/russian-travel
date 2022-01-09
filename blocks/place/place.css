@@ -19,12 +19,6 @@
     padding-bottom: 73px;
   }
 }
-/* @media screen and (max-width: 768px){
-  .place{
-    max-width: 720px;
-    padding-bottom: 73px;
-  }
-} */
 @media screen and (max-width: 722px){
   .place{
     max-width: 320px;
