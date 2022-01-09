@@ -39,6 +39,6 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-div, header, nav, section, h1, p, ul, li{
+div, header, nav, section, h1, p, ul, li, main{
   outline: 1px solid rgb(255, 238, 0);
 }
