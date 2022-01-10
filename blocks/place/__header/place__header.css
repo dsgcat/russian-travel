@@ -1,8 +1,7 @@
 .place__header{
   max-width: 984px;
   margin: 0;
-  padding: 0;
-  padding-bottom: 48px;
+  padding: 0 0 48px 0;
   display: grid;
   grid-template-columns: 460px 456px;
   grid-column-gap: 40px;
@@ -22,9 +21,9 @@
 }
 @media screen and (max-width: 722px){
   .place__header{
-    max-width: 288px;
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
     margin: 0 auto;
+    padding: 0;
   }
 }
