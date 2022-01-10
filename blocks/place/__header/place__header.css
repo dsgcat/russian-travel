@@ -1,7 +1,8 @@
 .place__header{
   max-width: 984px;
   margin: 0;
-  padding: 0 0 48px 0;
+  padding: 0;
+  padding-bottom: 48px;
   display: grid;
   grid-template-columns: 460px 456px;
   grid-column-gap: 40px;
