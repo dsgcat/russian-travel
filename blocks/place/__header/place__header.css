@@ -25,7 +25,8 @@
     max-width: 288px;
     grid-template-columns: repeat(auto-fit, 288px);
     grid-row-gap: 32px;
-    margin: 0 auto;
-    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
   }
 }
